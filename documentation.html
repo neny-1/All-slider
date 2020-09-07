@@ -1,0 +1,35 @@
+<!--
+    whan we add new slider width the same code 
+    1 - we must change all variable name => this variable To new name
+        container = document.querySelector(".convoy"),
+        nextbut = document.querySelector('.next'),
+        prevbut = document.querySelector('.prev'),
+        children =container.children,
+        allBox=container.children,//get all box content inside container
+        allBox=container.children,//get all box item inside container
+        margin=15, 				//margin for each box it is const
+        containerWidth=container.offsetWidth+margin,//width of container
+        items=0, 				//items in each screen
+        jumpSlideWidth=0, 		//width to jump in next slider
+        totalItems=0, 			//total box or items in all carousel
+        currentSlide=1,  		//for dots control
+        allSlides = 1, 			// how many slides in each screen
+        totalItemsWidth=0,
+        itemWidth =0,
+        dragTime,				//transition time for drage or change slide 
+        dragTimePC=1.2,	
+        dragTimeMobile=0.8,
+        startX,
+        endX,
+        newX,
+        isDown = false,
+        scrollLeft,
+        time,
+        autoPlay ='off', 		// put animation = 'off' to stop time slider animation content setup per slide
+        startAnimation=0, 		//for start animation position 
+        endAnimation=0;   		// end animation and start other loop
+    
+
+    2 - change nextSlider() =>function name To new name 
+    3 - change prevSlider() =>function name To new name 
+-->
